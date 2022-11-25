@@ -8,7 +8,7 @@ import {
   UserOutlined,
   SearchOutlined
 } from '@ant-design/icons';
-import { Avatar, Col, Input, Layout, Menu, Row, Typography } from 'antd';
+import { AutoComplete, Avatar, Col, Input, Layout, Menu, Row, Typography } from 'antd';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Props } from 'next/script';
@@ -99,8 +99,10 @@ const AppLayout: React.FC<Props> = ({children}) => {
               })}
             </Col>
 
+            {/* Search bar */}
             <Col span={8} >
                 <Input suffix={searchButton} placeholder="search" />
+                {/* <AutoComplete suffix={searchButton} placeholder="search" /> */}
             </Col>
 
             <Col span={2} offset={4}>
