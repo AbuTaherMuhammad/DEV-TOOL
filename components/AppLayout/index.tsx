@@ -81,6 +81,126 @@ const AppLayout: React.FC<Props> = ({children}) => {
               label: 'Analyze Headers',
             },
             {
+              key: 'smtp',
+              icon: <AimOutlined />,
+              label: 'SMTP',
+              description: "Test mail server"
+            },
+            {
+              key: 'ptr',
+              icon: <AimOutlined />,
+              label: 'PTR',
+              description: "DNS reverse lookup"
+            },
+            {
+              key: 'whois',
+              icon: <AimOutlined />,
+              label: 'Whois',
+              description: "Domain lookup"
+            },
+            {
+              key: 'sfp',
+              icon: <AimOutlined />,
+              label: 'SFP',
+              description: "Sender policy framework"
+            },
+            {
+              key: 'skim',
+              icon: <AimOutlined />,
+              label: 'Domain Keys Identified Mail',
+              description: "Test mail server"
+            },
+            {
+              key: 'smtp',
+              icon: <AimOutlined />,
+              label: 'SMTP',
+              description: "Test mail server"
+            },
+            {
+              key: 'cert',
+              icon: <AimOutlined />,
+              label: 'CERT',
+              description: "CERT Lookup"
+            },
+            {
+              key: 'domain',
+              icon: <AimOutlined />,
+              label: 'Domain',
+              description: "Domain health report"
+            },
+            {
+              key: 'asn',
+              icon: <AimOutlined />,
+              label: 'ASN',
+              description: "ASN Lookup"
+            },
+            {
+              key: 'smtp',
+              icon: <AimOutlined />,
+              label: 'SMTP',
+              description: "Test mail server"
+            },
+            {
+              key: 'http-https',
+              icon: <AimOutlined />,
+              label: 'HTTP/HTTPS',
+              description: "Query lookup"
+            },
+            {
+              key: 'arin',
+              icon: <AimOutlined />,
+              label: 'Arin',
+              description: "Arin"
+            },
+            {
+              key: 'mailflow',
+              icon: <AimOutlined />,
+              label: 'Mailflow',
+              description: "End-to-End mail monitoring"
+            },
+            {
+              key: 'subnet-callculator',
+              icon: <AimOutlined />,
+              label: 'Subnet Calculator',
+              description: "Monitor an entire subnet"
+            },
+            {
+              key: 'email-extraction',
+              icon: <AimOutlined />,
+              label: 'Email Extraction',
+              description: "Extract email from text"
+            },
+            {
+              key: 'bulk-lookup',
+              icon: <AimOutlined />,
+              label: 'Bulk Lookup',
+              description: "Run bulk lookup"
+            },
+            {
+              key: 'email-deliverability',
+              icon: <AimOutlined />,
+              label: 'Email Deliverability',
+              description: "Build your full deliverability report."
+            },
+            {
+              key: 'dns-propagation',
+              icon: <AimOutlined />,
+              label: 'DNS Propagation',
+              description: "DNS Propagation check"
+            },
+            {
+              key: 'password-generator',
+              icon: <AimOutlined />,
+              label: 'Password Generator',
+              description: "Generate strong password."
+            },
+            {
+              key: 'spam-analyzer',
+              icon: <AimOutlined />,
+              label: 'Spam Analyzer',
+              description: "Analyze spam"
+            },
+            {
               key: 'about',
               icon: <InfoCircleOutlined />,
               label: 'About',
