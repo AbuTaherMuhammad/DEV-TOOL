@@ -84,7 +84,7 @@ const AppLayout: React.FC<Props> = ({children}) => {
               key: 'analyze-headers',
               icon: <AimOutlined />,
               label: 'Analyze Headers',
-              description: "Analyze headers"
+//               description: "Analyze headers"
             },
             {
               key: 'smtp',
